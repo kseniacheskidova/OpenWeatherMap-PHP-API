@@ -47,27 +47,27 @@ class OpenWeatherMap
     /**
      * @var string The basic api url to fetch weather data from.
      */
-    private $weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?';
+    private $weatherUrl = 'https://api.openweathermap.org/data/3.0/weather?';
 
     /**
      * @var string The basic api url to fetch weather group data from.
      */
-    private $weatherGroupUrl = 'https://api.openweathermap.org/data/2.5/group?';
+    private $weatherGroupUrl = 'https://api.openweathermap.org/data/3.0/group?';
 
     /**
      * @var string The basic api url to fetch weekly forecast data from.
      */
-    private $weatherHourlyForecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?';
+    private $weatherHourlyForecastUrl = 'https://api.openweathermap.org/data/3.0/forecast?';
 
     /**
      * @var string The basic api url to fetch daily forecast data from.
      */
-    private $weatherDailyForecastUrl = 'https://api.openweathermap.org/data/2.5/forecast/daily?';
+    private $weatherDailyForecastUrl = 'https://api.openweathermap.org/data/3.0/forecast/daily?';
 
     /**
      * @var string The basic api url to fetch uv index data from.
      */
-    private $uvIndexUrl = 'https://api.openweathermap.org/data/2.5/uvi';
+    private $uvIndexUrl = 'https://api.openweathermap.org/data/3.0/uvi';
 
     /**
      * @var string The basic api url to fetch air pollution data from.
